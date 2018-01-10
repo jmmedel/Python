@@ -1,4 +1,4 @@
-
+#003
 # ---------- FORCE USER TO ENTER A NUMBER ----------
 # By giving the while a value of True it will cycle until a break is reached
 while True:
