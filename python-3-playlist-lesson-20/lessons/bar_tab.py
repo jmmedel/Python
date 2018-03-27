@@ -29,3 +29,5 @@ class Tab:
         print(f'{"Tax":20} £{tax:.2f}')
         print(f'{"Service charge":20} £{service:.2f}')
         print(f'{"Total":20} £{total:.2f}')
+        
+
