@@ -3,10 +3,11 @@ def ninja_intro(dict):
         print(f'I am {key} and I am a {val} belt')
 
 ninja_belts = { }
-
+print("Welcome enter")
 while True:
     ninja_name = input('add a ninja name: ')
     ninja_belt = input('add a ninja colour: ')
+    #[key] = values 
     ninja_belts[ninja_name] = ninja_belt
 
     another = input('add another? (y/n): ')
@@ -16,3 +17,4 @@ while True:
         break
 
 ninja_intro(ninja_belts)
+print("-----")
