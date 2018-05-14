@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-0H02014 岸本和哉
+Python 3
+0H01007 加賀屋　ジャンメデル
 """
 print("国語の得点を入力してください->", end="")
 kokugo = int(input())
