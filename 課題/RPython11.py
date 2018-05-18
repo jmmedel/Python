@@ -16,4 +16,4 @@ while cnt <= 5:
 else:
     print("平均は" + str(sum / (cnt - 1)) + "です")
 print ("このprintは常に実行します")
-エラー
+
