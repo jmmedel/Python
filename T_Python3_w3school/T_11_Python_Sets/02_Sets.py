@@ -20,3 +20,5 @@ print(thisset)
 thisset = set(("Apple","Banna","Cherry"))
 thisset.remove ("Banna")
 print(thisset)
+
+#Using the len() method to return the number of items:
