@@ -18,8 +18,10 @@ print ("dict['Name']: ", dict['Name'])
 print ("dict['Age']: ", dict['Age'])
 
 
-dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'};
-print "dict['Alice']: ", dict['Alice']
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+print( "dict['Alice']: ", dict['Alice'])
+
+
 
 
 
