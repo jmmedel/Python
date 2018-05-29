@@ -21,6 +21,16 @@ print ("dict['Age']: ", dict['Age'])
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 print( "dict['Alice']: ", dict['Alice'])
 
+"""
+When the above code is executed, it produces the following result −
+
+dict['Zara']:
+Traceback (most recent call last):
+   File "test.py", line 4, in <module>
+      print "dict['Alice']: ", dict['Alice'];
+KeyError: 'Alice'
+
+"""
 
 
 
