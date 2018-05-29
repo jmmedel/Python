@@ -14,9 +14,9 @@ Example
 
 
 class JustCounter:
-       __secretCount = 0
+    __secretCount = 0
   
-   def count(self):
+    def count(self):
       self.__secretCount += 1
       print (self.__secretCount)
 
