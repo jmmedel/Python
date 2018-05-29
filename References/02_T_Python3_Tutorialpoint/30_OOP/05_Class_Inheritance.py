@@ -47,3 +47,27 @@ c.parentMethod()     # calls parent's method
 c.setAttr(200)       # again call parent's method
 c.getAttr()          # again call parent's method
 
+"""
+When the above code is executed, it produces the following result −
+
+Calling child constructor
+Calling child method
+Calling parent method
+Parent attribute : 200
+
+In a similar way, you can drive a class from multiple parent classes as follows −
+
+class A:        # define your class A
+.....
+
+class B:         # define your calss B
+.....
+
+class C(A, B):   # subclass of A and B
+.....
+You can use issubclass() or isinstance() functions to check a relationships of two classes and instances.
+
+The issubclass(sub, sup) boolean function returns True, if the given subclass sub is indeed a subclass of the superclass sup.
+
+The isinstance(obj, Class) boolean function returns True, if obj is an instance of class Class or is an instance of a subclass of Class
+"""
