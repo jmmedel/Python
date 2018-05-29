@@ -195,3 +195,8 @@ Lb1.insert(4,"PHP")
 Lb1.insert(5,"JSP")
 Lb1.insert(6,"RUBY")
 
+Lb1.pack()
+top.mainloop()
+
+    
+
