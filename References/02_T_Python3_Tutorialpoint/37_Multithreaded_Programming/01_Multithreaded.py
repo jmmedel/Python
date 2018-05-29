@@ -66,3 +66,12 @@ except:
 while 1:
    pass
    
+
+"""
+
+Program goes in an infinite loop. You will have to press ctrl-c to stop
+
+Although it is very effective for low-level threading, the thread module is very limited compared to the newer threading module.
+
+
+"""
