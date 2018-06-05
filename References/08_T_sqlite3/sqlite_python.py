@@ -118,7 +118,7 @@ def main():
     db = database()
     #db.createtable()
     db.printDB()
-    db.addtodatabase("john", "kagaya", 23, "623.elisa st.ny", '411,991')
+    db.addtodatabase("john", "medel", 23, "623.elisa st.ny", '411,991')
     #delete by id
     db.delete_index_by_ID(2)
     
