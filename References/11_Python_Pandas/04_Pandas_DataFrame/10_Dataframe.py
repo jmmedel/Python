@@ -22,3 +22,20 @@ d = {'one' : pd.Series([1, 2, 3], index=['a', 'b', 'c']),
 df = pd.DataFrame(d)
 print (df)
 
+
+"""
+
+Its output is as follows −
+
+      one    two
+a     1.0    1
+b     2.0    2
+c     3.0    3
+d     NaN    4
+Note − Observe, for the series one, there is no label ‘d’ passed, but in the result, for the d label, NaN is appended with NaN.
+
+Let us now understand column selection, addition, and deletion through examples.
+
+
+"""
+
