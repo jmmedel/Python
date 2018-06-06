@@ -34,3 +34,33 @@ print (df)
 print ("Deleting another column using POP function:")
 df.pop('two')
 print (df)
+
+
+"""
+
+Its output is as follows −
+
+Our dataframe is:
+      one   three  two
+a     1.0    10.0   1
+b     2.0    20.0   2
+c     3.0    30.0   3
+d     NaN     NaN   4
+
+Deleting the first column using DEL function:
+      three    two
+a     10.0     1
+b     20.0     2
+c     30.0     3
+d     NaN      4
+
+Deleting another column using POP function:
+   three
+a  10.0
+b  20.0
+c  30.0
+d  NaN
+
+
+
+"""
