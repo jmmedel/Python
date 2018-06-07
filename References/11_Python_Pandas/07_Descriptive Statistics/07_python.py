@@ -3,8 +3,6 @@
 
 """
 
-std()
-Returns the Bressel standard deviation of the numerical columns.
 
 
 
@@ -22,18 +20,18 @@ d = {'Name':pd.Series(['Tom','James','Ricky','Vin','Steve','Smith','Jack',
 
 #Create a DataFrame
 df = pd.DataFrame(d)
-print (df.std())
-
-
+print (df.describe(include=['object']))
 
 """
 
 Its output is as follows −
 
-Age       9.232682
-Rating    0.661628
-dtype: float64
-
+          Name
+count       12
+unique      12
+top      Ricky
+freq         1
 
 
 """
+
