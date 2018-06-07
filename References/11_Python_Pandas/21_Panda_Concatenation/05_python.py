@@ -23,3 +23,25 @@ two = pd.DataFrame({
          'Marks_scored':[89,80,79,97,88]},
          index=[1,2,3,4,5])
 print (one.append(two))
+
+
+
+"""
+
+Its output is as follows −
+
+    Marks_scored    Name  subject_id
+1           98      Alex      sub1
+2           90       Amy      sub2
+3           87     Allen      sub4
+4           69     Alice      sub6
+5           78    Ayoung      sub5
+1           89     Billy      sub2
+2           80     Brian      sub4
+3           79      Bran      sub3
+4           97     Bryce      sub6
+5           88     Betty      sub5
+The append function can take multiple objects as well −
+
+
+"""
