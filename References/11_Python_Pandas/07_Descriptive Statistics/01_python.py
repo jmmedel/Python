@@ -28,5 +28,27 @@ df = pd.DataFrame(d)
 print (df)
 
 
+"""
+
+Its output is as follows −
+
+    Age  Name   Rating
+0   25   Tom     4.23
+1   26   James   3.24
+2   25   Ricky   3.98
+3   23   Vin     2.56
+4   30   Steve   3.20
+5   29   Smith   4.60
+6   23   Jack    3.80
+7   34   Lee     3.78
+8   40   David   2.98
+9   30   Gasper  4.80
+10  51   Betina  4.10
+11  46   Andres  3.65
+
+
+"""
+
+
 
 
